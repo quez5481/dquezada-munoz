@@ -66,7 +66,7 @@ figure img
 {
     border-radius: 42px;
 }
-#me, #ft
+#me
 {
     float: left;
 }
@@ -77,12 +77,22 @@ figure img
 }
 footer
 {
-    clear: left;
-    font-size:.4em;
+    text-align: center;
+    clear: both;
+    font-size:.8em;
+    padding-top: 10px;
+}
+iframe
+{
+    display: block;
+    margin: 0px auto;
 }
 footer img
 {
-    float: left;
+    clear: both;
+    display: block;
+    margin: 0px auto;
+    
 }
 #current
 {
