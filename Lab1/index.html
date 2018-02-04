@@ -16,45 +16,8 @@ in html
         <title>
             Diego Quezada: Personal Website
         </title>
-        <style>
-            h1
-            {
-                color:white;
-            }
-            body
-            {
-                background-color:black;
-                color:gray;
-            }
-            header, main, nav, footer
-            {
-                text-align:center;
-            }
-            nav a
-            {
-                padding: 10px;
-                font-size: 1.5em;
-                color: gray;
-            }
-            main
-            {
-                width: 858px;
-                margin: 0 auto;
-            }
-            figure img
-            {
-                border-radius: 42px;
-            }
-            main figure, main div
-            {
-                float: left;
-            }
-            footer
-            {
-                clear: left;
-            }
-        </style>
-        <link href="http://hosting.csumb.edu/laramiguel/cst336/labs/portfolio/styles.css" rel="stylesheet" />
+    
+        <link href="css/style.css" rel="stylesheet" />
     </head>
 <!-- closing head -->
 
@@ -69,18 +32,18 @@ in html
         </header>
         <nav>
             <hr width="50%" />
-            <a href="index.html">Home</a>
+            <a href="index.html" id="current">Home</a>
             <a href="about.html">About</a>
             <a href="Contact.html">Content</a>
         </nav>
         
         <main>
        
-            <figure>
+            <figure id="me">
                 <img src="img/juan_doe.png" width="200" alt="Picture of John Doe">
             </figure>
             
-            <div>
+            <div id="welcomeText"> 
                 Hello!<br/>
                 <p>
                     Thank you for visiting my professional portfolio website.
@@ -107,10 +70,14 @@ in html
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
-            <hr>
-            Course Name. 2017&copy; Your Last Name <br/>
-            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
-            It is used for academic purposes only.
+            <img src="img/csumb_logo_150_86.jpg" alt"csumbLogo">
+            <div id="ft">
+                <hr>
+                Course Name. 2017&copy; Your Last Name <br/>
+                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+                It is used for academic purposes only.
+            </div>
+            
             
         </footer>
         <!-- closing footer -->

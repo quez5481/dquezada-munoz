@@ -1,0 +1,48 @@
+ h1
+{
+    color:white;
+}
+body
+{
+    background-color:black;
+    color:gray;
+}
+header, main, nav, footer
+{
+    text-align:center;
+}
+nav a
+{
+    padding: 15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    color: white;
+}
+nav a:hover
+{
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition: .9s;
+}
+main
+{
+    width: 858px;
+    margin: 0 auto;
+}
+figure img
+{
+    border-radius: 42px;
+}
+#me, #welcomeText, #ft
+{
+    float: left;
+}
+footer
+{
+    clear: left;
+    font-size:2em;
+}
+#current
+{
+    color:red;
+}
