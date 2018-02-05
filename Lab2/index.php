@@ -29,8 +29,15 @@
         <?php
         
             $symbol = "lemon";
+            $randomValue = 1; 
+            $random= rand(0, 3);
+            
+            if($randomValue == 1)
+            {
+                echo "<img src=\"img/$symbol.png\" alt=\"Lemon\" width=\"70\" title='Lemon'>";
+            }
         
-            echo "<img src=\"img/$symbol.png\" alt=\"Lemon\" width=\"70\" title='Lemon'>"
+            
         
         ?>
         
