@@ -28,14 +28,30 @@
         
         <?php
         
-            $symbol = "lemon";
-            $randomValue = 1; 
-            $random= rand(0, 3);
-            
-            if($randomValue == 1)
+            function displaySymbol()
             {
-                echo "<img src=\"img/$symbol.png\" alt=\"Lemon\" width=\"70\" title='Lemon'>";
+                $random = rand(0, 3);
+                if($random == 0)
+                {
+                    $symbol = "seven";
+                }
+                else if($random == 1)
+                {
+                    $symbol = "lemon";
+                }
+                else
+                {
+                    $symbol = "cherry";
+                }
+                echo "<img src=\"img/$symbol.png\" alt=\"$symbol\" width=\"70\" title='$symbol'>";
             }
+            
+            displaySymbol();
+            displaySymbol();
+            
+            
+            
+            
         
             
         
