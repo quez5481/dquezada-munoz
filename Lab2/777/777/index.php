@@ -26,9 +26,18 @@
             HERE
         </h1>
         
-        <img src="img/lemon.png" alt="lemon">
-        <img src="img/cherry.png" alt="cherry">
-        <img src="img/orange.png" alt="orange">
+        <?php
+        
+            $symbol = "lemon";
+        
+            echo "<img src=\"img/$symbol.png\" alt=\"Lemon\" width=\"70\" title='Lemon'>"
+        
+        ?>
+        
+        
+        <img src="img/lemon.png" alt="Lemon" width="70" title="Lemon">
+        <img src="img/cherry.png" alt="Cherry" width="70" title="Cherry">
+        <img src="img/orange.png" alt="Orange" width="70" title="Orange">
         
         
         
