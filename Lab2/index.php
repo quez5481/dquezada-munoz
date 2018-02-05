@@ -28,26 +28,51 @@
         
         <?php
         
-            function displaySymbol()
+            function displaySymbol($randomValue)
             {
-                $random = rand(0, 3);
-                if($random == 0)
+                // if($random == 0)
+                // {
+                //     $symbol = "seven";
+                // }
+                // else if($random == 1)
+                // {
+                //     $symbol = "lemon";
+                // }
+                // else
+                // {
+                //     $symbol = "cherry";
+                // }
+                
+                switch($randomValue)
                 {
-                    $symbol = "seven";
+                    case 0: $symbol = "seven";
+                            break;
+                    case 1: $symbol = "lemon";
+                            break;
+                    case 2: $symbol = "cherry";
+                            break;
                 }
-                else if($random == 1)
-                {
-                    $symbol = "lemon";
-                }
-                else
-                {
-                    $symbol = "cherry";
-                }
+    
                 echo "<img src=\"img/$symbol.png\" alt=\"$symbol\" width=\"70\" title='$symbol'>";
             }
             
-            displaySymbol();
-            displaySymbol();
+            switch($randomValue)
+            {
+                case 0: $symbol = "seven";
+                            break;
+                case 1: $symbol = "lemon";
+                            break;
+                case 2: $symbol = "cherry";
+                            break;
+            }
+            
+            $random1 = rand(0, 3);
+            displaySymbol($random1);
+            $random2 = rand(0, 3);
+            displaySymbol($random2);
+            $random3 = rand(0, 3);
+            displaySymbol($random3);
+            
             
             
             
