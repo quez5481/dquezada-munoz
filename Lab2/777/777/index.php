@@ -26,7 +26,9 @@
             HERE
         </h1>
         
-        <img src="777/img/bar.png" alt="bar">
+        <img src="img/lemon.png" alt="lemon">
+        <img src="img/cherry.png" alt="cherry">
+        <img src="img/orange.png" alt="orange">
         
         
         
@@ -41,7 +43,7 @@
                 It is used for academic purposes only.
             </div>
             <br/>
-            <img src="777/img/csumb_logo_150_86.jpg" alt"csumbLogo">
+            <img src="img/csumb_logo_150_86.jpg" alt"csumbLogo">
         </footer>
     </body>
 </html>
