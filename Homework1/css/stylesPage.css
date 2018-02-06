@@ -19,3 +19,17 @@ h1
     color:black;
     text-shadow: 2px 2px gray;
 }
+footer
+{
+    text-align: center;
+    clear: both;
+    font-size:.8em;
+    padding-top: 10px;
+}
+footer img
+{
+    clear: both;
+    display: block;
+    margin: 0px auto;
+    
+}
