@@ -56,21 +56,11 @@
                 echo "<img src=\"img/$symbol.png\" alt=\"$symbol\" width=\"70\" title='$symbol'>";
             }
             
-            switch($randomValue)
-            {
-                case 0: $symbol = "seven";
-                            break;
-                case 1: $symbol = "lemon";
-                            break;
-                case 2: $symbol = "cherry";
-                            break;
-            }
-            
-            $random1 = rand(0, 3);
+            $random1 = rand(0, 2);
             displaySymbol($random1);
-            $random2 = rand(0, 3);
+            $random2 = rand(0, 2);
             displaySymbol($random2);
-            $random3 = rand(0, 3);
+            $random3 = rand(0, 2);
             displaySymbol($random3);
             
             
@@ -83,9 +73,9 @@
         ?>
         
         
-        <img src="img/lemon.png" alt="Lemon" width="70" title="Lemon">
-        <img src="img/cherry.png" alt="Cherry" width="70" title="Cherry">
-        <img src="img/orange.png" alt="Orange" width="70" title="Orange">
+        <!--<img src="img/lemon.png" alt="Lemon" width="70" title="Lemon">-->
+        <!--<img src="img/cherry.png" alt="Cherry" width="70" title="Cherry">-->
+        <!--<img src="img/orange.png" alt="Orange" width="70" title="Orange">-->
         
         
         
