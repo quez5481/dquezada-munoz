@@ -33,3 +33,8 @@ footer img
     margin: 0px auto;
     
 }
+#text
+{
+    float:left;
+    text-align:left;
+}
