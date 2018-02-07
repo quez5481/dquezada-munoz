@@ -1,3 +1,8 @@
+main
+{
+    width: 900px;
+    margin: 0 auto;
+}
 nav
 {
     background-color:lightblue;
@@ -35,6 +40,6 @@ footer img
 }
 #text
 {
-    float:left;
+    float:right;
     text-align:left;
 }
