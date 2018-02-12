@@ -1,0 +1,17 @@
+body{
+    background:white;
+    color:black;
+}
+
+#card1 {
+    float:left;
+    display: block;
+    margin: 0px auto;
+    padding-left:300px;
+}
+#card2{
+    float:right;
+    display: block;
+    margin: 0px auto;
+    padding-right:300px;
+}

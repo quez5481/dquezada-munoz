@@ -3,28 +3,8 @@
     <head>
         <title> 777 Slot Machine </title>
         <meta charset="utf-8"/>
-        <style>
-            footer
-            {
-                text-align: center;
-                clear: both;
-                font-size:.8em;
-                padding-top: 10px;
-            }
-            footer img
-            {
-                clear: both;
-                display: block;
-                margin: 0px auto;
-                
-            }
-        </style>
     </head>
     <body>
-        
-        <h1>
-            HERE
-        </h1>
         
         <?php
         
@@ -53,23 +33,22 @@
                             break;
                 }
     
-                echo "<img src=\"img/$symbol.png\" alt=\"$symbol\" width=\"70\" title='$symbol'>";
+                echo "<img src=\"img/$symbol/$value.png\" alt=\"$symbol\" width=\"70\" title='$symbol'>";
             }
             
-            $random1 = rand(0, 2);
-            displaySymbol($random1);
-            $random2 = rand(0, 2);
-            displaySymbol($random2);
-            $random3 = rand(0, 2);
-            displaySymbol($random3);
             
+            // $random1 = rand(0, 2);
+            // displaySymbol($random1);
+            // $random2 = rand(0, 2);
+            // displaySymbol($random2);
+            // $random3 = rand(0, 2);
+            // displaySymbol($random3);
             
-            
-            
-            
-        
-            
-        
+            for($i=0; $i<=2; $i++)
+            {
+                ${"randomValue" . $i} = rand(0, 2);
+                displaySymbol(${"randomValue" . $i});
+            }
         ?>
         
         
@@ -81,9 +60,14 @@
         
         
         
+        
+        
+        
+        
+        
         <footer>
             <br/><br/>
-            <div id="ft">
+            <div>
                 <hr>
                 Internet Programming. 2018&copy; Quezada <br/>
                 <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
