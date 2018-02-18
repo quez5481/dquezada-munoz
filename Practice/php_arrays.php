@@ -3,7 +3,7 @@
     //$cards = array("ace", "one", 2);
     $cards = array();
     $suits = array("clubs", "diamonds", "hearts", "spades");
-    array_push($cards, "ace", "king", "queen", "jack", "ten"); // adds element at the end of array
+    array_push($cards, "1", "2", "queen", "jack", "ten"); // adds element at the end of array
     // print_r($cards);
     // var_dump($cards);
     // echo $cards;
@@ -12,9 +12,40 @@
     
     
     
+  
+    
+    
+    
+    
+    function getHand()
+    {
+        $round = 1;
+        do /// Rounds
+        {
+            for($i = 1; $i <= 4; $i++)
+            {
+                $lastCard = array_pop($cards);
+                
+            }
+            $round++;
+        while($round <= 4)
+    }
+    while($round == 4)
+        
+    }
+    
+    function displayHands()
+    {
+        
+    }
+    
+    function displayWinners()
+    {
+        
+    }
+    
     function displayCard($suit, $card)
     {
-       
         echo "<img src='../Challenge2/img/cards/$suit/$card.png'>"; 
     }
     
@@ -32,9 +63,12 @@
         $randomIndex = rand(0, count($cards)-1);
         displayCard($suits[$randomSuit], $cards[$randomIndex]);
         $i++;
-        
     } 
     while($i<4);
+    
+    
+    
+    
     
     
     
