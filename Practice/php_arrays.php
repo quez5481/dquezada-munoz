@@ -1,9 +1,16 @@
 <?php
+
+    session_start();
+    
+    $_SESSION['player1'] = 0;
+    $_SESSION['player2'] = 0;
+    $_SESSION['player3'] = 0;
+    $_SESSION['player4'] = 0;
             
-    //$cards = array("ace", "one", 2);
-    $cards = array();
-    $suits = array("clubs", "diamonds", "hearts", "spades");
-    array_push($cards, "1", "2", "queen", "jack", "ten"); // adds element at the end of array
+    // $cards = array("ace", "one", 2);
+    // $cards = array();
+    // $suits = array("clubs", "diamonds", "hearts", "spades");
+    // array_push($cards, "1", "2", "queen", "jack", "ten"); // adds element at the end of array
     // print_r($cards);
     // var_dump($cards);
     // echo $cards;
@@ -12,73 +19,95 @@
     
     
     
-  
-    
-    
-    
-    
-    function getHand()
+    function play()
     {
+        
+        createDeck();
+    }
+    
+    function createDeck()
+    {
+        $deck = array();
+        for($i=0; $i<=3; $i++)
+        {
+            for($j=1; $j<=13; $j++)
+            {
+                array_push($deck, $i."/".$j);
+            }
+        }
+        shuffle($deck);
+        getHand($deck);
+    }
+    
+    function getHand($shuffledDeck)
+    {
+        $players = array(array("p1", 0, 0, 0, 0, 0, 0), array("p2", 0, 0, 0, 0, 0, 0), array("p3", 0, 0, 0, 0, 0, 0), array("p4", 0, 0, 0, 0, 0, 0));
         $round = 1;
-        do /// Rounds
+        do
         {
             for($i = 1; $i <= 4; $i++)
             {
-                $lastCard = array_pop($cards);
-                
+                $lastCard = array_pop($shuffledDeck);
+                $players[$i][$round] = $lastCard;
             }
             $round++;
-        while($round <= 4)
-    }
-    while($round == 4)
-        
+        }
+        while($round <= 6);
+        displayHands($players);
     }
     
-    function displayHands()
+    function displayHands($game)
     {
-        
+        $player = 1;
+        do
+        {
+            for($i = 1; $i <= 6; $i++)
+            {
+                displayCard($game[$player][$i]);
+            }
+            $player++;
+            echo "<br>";
+        }
+        while($player <= 4);
     }
+    
+    
+    
+    function displayCard($card)
+    {
+        echo "<img src='../Practice/cards/$card.png'>"; 
+    }
+    
     
     function displayWinners()
     {
-        
+        // SESSION VARIABLES
     }
     
-    function displayCard($suit, $card)
-    {
-        echo "<img src='../Challenge2/img/cards/$suit/$card.png'>"; 
-    }
     
+   
+     
     // displayCard($cards[0]);
     
-    print_r($suits);
-    print_r($cards);
-    echo "<hr>";
+    // print_r($suits);
+    // print_r($cards);
+    // echo "<hr>";
     // $lastCard = array_pop($cards);
     
-    $i = 0;
-    do 
-    {
-        $randomSuit = rand(0, count($suits)-1);
-        $randomIndex = rand(0, count($cards)-1);
-        displayCard($suits[$randomSuit], $cards[$randomIndex]);
-        $i++;
-    } 
-    while($i<4);
+    // $i = 0;
+    // do 
+    // {
+    //     $randomSuit = rand(0, count($suits)-1);
+    //     $randomIndex = rand(0, count($cards)-1);
+    //     displayCard($suits[$randomSuit], $cards[$randomIndex]);
+    //     $i++;
+    // } 
+    // while($i<4);
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    echo "<hr>";
-    print_r($suits);
-    print_r($cards);
+    // echo "<hr>";
+    // print_r($suits);
+    // print_r($cards);
     
     // unset($cards[1]);
     // echo "<hr>";
@@ -98,9 +127,6 @@
     
     // $randomIndex2 = array_rand($cards);
     // displayCard($cards[$randomIndex2]);
-    
-    
-    
 ?>
 
 
@@ -111,7 +137,10 @@
     </head>
     <body>
         
-        
+        <?php 
+            include 'inc/functions.php';
+            play();
+        ?>
         
 
     </body>

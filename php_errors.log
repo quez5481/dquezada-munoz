@@ -227,3 +227,151 @@
 [12-Feb-2018 23:44:54 UTC] PHP   2. displayCard() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:55
 [12-Feb-2018 23:48:23 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 37
 [12-Feb-2018 23:48:24 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 37
+[19-Feb-2018 23:40:22 UTC] PHP Fatal error:  Call to undefined function char() in /home/ubuntu/workspace/dquezada-munoz/Challenge3/index.php on line 8
+[19-Feb-2018 23:40:22 UTC] PHP Stack trace:
+[19-Feb-2018 23:40:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Challenge3/index.php:0
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 01:58:16 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 50
+[21-Feb-2018 01:58:16 UTC] PHP Stack trace:
+[21-Feb-2018 01:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:0
+[21-Feb-2018 01:58:16 UTC] PHP   2. createDeck() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:35
+[21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
+[21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
+[21-Feb-2018 02:07:59 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ']' in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 65
