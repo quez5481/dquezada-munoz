@@ -1,0 +1,44 @@
+body 
+{
+    background-color: #048e39;
+    color: black;
+}
+h2
+{
+    text-align:center;
+}
+p
+{
+    text-align:center;
+}
+footer
+{
+    text-align: center;
+    clear: both;
+    font-size:.8em;
+    padding-top: 10px;
+}
+footer img
+{
+    clear: both;
+    display: block;
+    margin: 0px auto;
+}
+#playerCards
+{
+    display:inline-block;
+    margin: 0px auto;
+    width: 150px;
+}
+#river
+{
+    display:block;
+    margin: 0px auto;
+    width: 365px;
+}
+#cards
+{
+    display:block;
+    margin: 0px auto;
+    width: 600px;
+}

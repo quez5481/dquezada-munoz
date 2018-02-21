@@ -32,7 +32,8 @@
         {
             for($j=1; $j<=13; $j++)
             {
-                array_push($deck, $i."/".$j);
+                $crypt = ($i * 100) + $j;
+                array_push($deck, $crypt);
             }
         }
         shuffle($deck);
@@ -42,17 +43,22 @@
     function getHand($shuffledDeck)
     {
         $players = array(array("p1", 0, 0, 0, 0, 0, 0), array("p2", 0, 0, 0, 0, 0, 0), array("p3", 0, 0, 0, 0, 0, 0), array("p4", 0, 0, 0, 0, 0, 0));
-        $round = 1;
+        $player = 1;
         do
         {
-            for($i = 1; $i <= 4; $i++)
+            $sum = 0;
+            for($i = 1; $i <= 6; $i++)
             {
                 $lastCard = array_pop($shuffledDeck);
-                $players[$i][$round] = $lastCard;
+                $players[$player][$i] = $lastCard;
+                $score = $lastCard%100;
+                $sum = $sum + $score;
+                echo $sum;
+                
             }
-            $round++;
+            $player++;
         }
-        while($round <= 6);
+        while($player <= 4);
         displayHands($players);
     }
     
@@ -75,7 +81,9 @@
     
     function displayCard($card)
     {
-        echo "<img src='../Practice/cards/$card.png'>"; 
+        $suit = $card/100;
+        $value = $card%100;
+        echo "<img src='../Practice/cards/.png'>"; 
     }
     
     

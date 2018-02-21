@@ -375,3 +375,55 @@
 [21-Feb-2018 01:58:16 UTC] PHP   3. getHand() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:32
 [21-Feb-2018 01:58:16 UTC] PHP   4. array_pop() /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php:50
 [21-Feb-2018 02:07:59 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ']' in /home/ubuntu/workspace/dquezada-munoz/Practice/php_arrays.php on line 65
+[21-Feb-2018 17:12:17 UTC] PHP Fatal error:  Call to undefined function start() in /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php on line 11
+[21-Feb-2018 17:12:17 UTC] PHP Stack trace:
+[21-Feb-2018 17:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:0
+[21-Feb-2018 17:26:08 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php on line 42
+[21-Feb-2018 17:26:09 UTC] PHP Stack trace:
+[21-Feb-2018 17:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:0
+[21-Feb-2018 17:26:09 UTC] PHP   2. play() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:11
+[21-Feb-2018 17:26:09 UTC] PHP   3. createDeck() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:5
+[21-Feb-2018 17:26:09 UTC] PHP   4. deal() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:20
+[21-Feb-2018 17:26:09 UTC] PHP   5. array_pop() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:42
+[21-Feb-2018 17:26:09 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php on line 42
+[21-Feb-2018 17:26:09 UTC] PHP Stack trace:
+[21-Feb-2018 17:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:0
+[21-Feb-2018 17:26:09 UTC] PHP   2. play() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:11
+[21-Feb-2018 17:26:09 UTC] PHP   3. createDeck() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:5
+[21-Feb-2018 17:26:09 UTC] PHP   4. deal() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:20
+[21-Feb-2018 17:26:09 UTC] PHP   5. array_pop() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:42
+[21-Feb-2018 17:26:09 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php on line 42
+[21-Feb-2018 17:26:09 UTC] PHP Stack trace:
+[21-Feb-2018 17:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:0
+[21-Feb-2018 17:26:09 UTC] PHP   2. play() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:11
+[21-Feb-2018 17:26:09 UTC] PHP   3. createDeck() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:5
+[21-Feb-2018 17:26:09 UTC] PHP   4. deal() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:20
+[21-Feb-2018 17:26:09 UTC] PHP   5. array_pop() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:42
+[21-Feb-2018 17:26:09 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php on line 42
+[21-Feb-2018 17:26:09 UTC] PHP Stack trace:
+[21-Feb-2018 17:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:0
+[21-Feb-2018 17:26:09 UTC] PHP   2. play() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:11
+[21-Feb-2018 17:26:09 UTC] PHP   3. createDeck() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:5
+[21-Feb-2018 17:26:09 UTC] PHP   4. deal() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:20
+[21-Feb-2018 17:26:09 UTC] PHP   5. array_pop() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:42
+[21-Feb-2018 17:26:09 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php on line 42
+[21-Feb-2018 17:26:09 UTC] PHP Stack trace:
+[21-Feb-2018 17:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:0
+[21-Feb-2018 17:26:09 UTC] PHP   2. play() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:11
+[21-Feb-2018 17:26:09 UTC] PHP   3. createDeck() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:5
+[21-Feb-2018 17:26:09 UTC] PHP   4. deal() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:20
+[21-Feb-2018 17:26:09 UTC] PHP   5. array_pop() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:42
+[21-Feb-2018 17:26:09 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php on line 42
+[21-Feb-2018 17:26:09 UTC] PHP Stack trace:
+[21-Feb-2018 17:26:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:0
+[21-Feb-2018 17:26:09 UTC] PHP   2. play() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:11
+[21-Feb-2018 17:26:09 UTC] PHP   3. createDeck() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:5
+[21-Feb-2018 17:26:09 UTC] PHP   4. deal() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:20
+[21-Feb-2018 17:26:09 UTC] PHP   5. array_pop() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:42
+[21-Feb-2018 19:32:31 UTC] PHP Fatal error:  Call to undefined function displayWinners() in /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php on line 74
+[21-Feb-2018 19:32:31 UTC] PHP Stack trace:
+[21-Feb-2018 19:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:0
+[21-Feb-2018 19:32:31 UTC] PHP   2. play() /home/ubuntu/workspace/dquezada-munoz/Homework2/index.php:13
+[21-Feb-2018 19:32:31 UTC] PHP   3. createDeck() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:5
+[21-Feb-2018 19:32:31 UTC] PHP   4. deal() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:20
+[21-Feb-2018 19:32:31 UTC] PHP   5. displayGame() /home/ubuntu/workspace/dquezada-munoz/Homework2/functions.php:46
