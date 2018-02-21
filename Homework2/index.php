@@ -6,6 +6,7 @@
         <style>
             h1
             {
+                text-align:center;
                 <?php
                     echo "color: rgba(".rand(0, 100).", ".rand(0, 100).", ".rand(0, 255).", ".(rand(0,100)/100).")";
                 ?>
