@@ -2,11 +2,6 @@
 
     function play()
     {
-        createDeck();
-    }
-    
-    function createDeck()
-    {
         $deck = array(); 
         for($i=0; $i<=3; $i++)
         {
@@ -27,7 +22,6 @@
         $round = 1;
         do
         {
-            $sum = 0;
             for($player = 0; $player <= 3; $player++)
             {
                 $lastCard = array_pop($shuffledDeck); 
@@ -78,5 +72,10 @@
         // echo $suit;
         // echo $value;
         echo "<img src='cards/$suit/$value.png'>"; 
+    }
+    
+    function checkHands($cardArray)
+    {
+        
     }
 ?>
