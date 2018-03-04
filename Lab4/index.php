@@ -93,9 +93,11 @@
             
             <select name="category">
               <option value="" >  Select One </option> 
-              <option value="sea" <?=checkCategory('sea')?>>  Ocean </option>
+              <option <?=checkCategory('sea')?>>  Sea </option>
               <option <?=checkCategory('Forest')?>>  Forest </option>
               <option <?=checkCategory('Sky')?>>  Sky </option>
+              <option <?=checkCategory('Desert')?>>  Desert </option>
+              <option <?=checkCategory('City')?>>  City </option>
             </select>
             
             
@@ -113,6 +115,10 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -123,6 +129,18 @@
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100" src="<?=$imageURLs[2]?>" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="<?=$imageURLs[3]?>" alt="Fourh slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="<?=$imageURLs[4]?>" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="<?=$imageURLs[5]?>" alt="Sixth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="<?=$imageURLs[6]?>" alt="Seventh slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
