@@ -33,13 +33,14 @@
       
   }      
  
- function checkCategory($category){
+ function checkCategory($category)
+ {
    
-    if ($category == $_GET['category']) {
+    if ($category == $_GET['category'])
+    {
        echo " selected";
     }
  }
-
 ?>
 
 <!DOCTYPE html>
@@ -64,7 +65,8 @@
 
         <?php
         
-            if (!isset($_GET['keyword'])) {
+            if (!isset($_GET['keyword']))
+            {
         
               echo "<h2> You must type a keyword or select a category </h2>";
             

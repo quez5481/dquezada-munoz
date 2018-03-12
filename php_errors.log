@@ -431,3 +431,60 @@
 [21-Feb-2018 23:44:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/dquezada-munoz/Lab4/index.php on line 82
 [26-Feb-2018 22:45:35 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/ubuntu/workspace/dquezada-munoz/Lab4/index.php on line 15
 [26-Feb-2018 22:45:36 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/ubuntu/workspace/dquezada-munoz/Lab4/index.php on line 15
+[12-Mar-2018 21:33:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php on line 39
+[12-Mar-2018 21:34:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_purchase' doesn't exist' in /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php on line 39
+[12-Mar-2018 21:35:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.opurchase' doesn't exist' in /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/dquezada-munoz/Challenge4/reports.php on line 39
+[12-Mar-2018 22:08:40 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 4
+[12-Mar-2018 22:08:40 UTC] PHP Stack trace:
+[12-Mar-2018 22:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:08:40 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 4
+[12-Mar-2018 22:08:40 UTC] PHP Stack trace:
+[12-Mar-2018 22:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:08:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 6
+[12-Mar-2018 22:08:40 UTC] PHP Stack trace:
+[12-Mar-2018 22:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:03 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 4
+[12-Mar-2018 22:09:03 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:03 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 4
+[12-Mar-2018 22:09:03 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 6
+[12-Mar-2018 22:09:03 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:04 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 4
+[12-Mar-2018 22:09:04 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:04 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 4
+[12-Mar-2018 22:09:04 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 6
+[12-Mar-2018 22:09:04 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:25 UTC] PHP Warning:  include(Practice/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 4
+[12-Mar-2018 22:09:25 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:25 UTC] PHP Warning:  include(): Failed opening 'Practice/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 4
+[12-Mar-2018 22:09:25 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:09:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 6
+[12-Mar-2018 22:09:25 UTC] PHP Stack trace:
+[12-Mar-2018 22:09:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:0
+[12-Mar-2018 22:22:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php(91): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 38
