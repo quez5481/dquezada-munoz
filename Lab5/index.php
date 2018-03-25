@@ -1,5 +1,14 @@
 <?php
     include 'functions.php';
+    
+    // Start the session in any php file where you will be using sessions
+    session_start();
+    
+    // Create an array in the Session to hold the cart items
+    if(!isset($_SESSION['cart']))
+    {
+        $_SESSION['cart'] = array();
+    }
     // checks to see if the form is submitted
     if(isset($_GET['query']))
     {
@@ -7,10 +16,34 @@
         include 'wmapi.php';
         $items = getProducts($_GET['query']);
     }
-    // Check to see if an item has beedn added to the cart
+    // Check to see if an item has been added to the cart
     if(isset($_POST['itemName']))
     {
-        $_SESSION['cart'] = $_POST['itemName'];
+        // Creating an array to hold an item's properties
+        $newItem = array();
+        $newItem['name'] = $_POST['itemName'];
+        $newItem['id'] = $_POST['itemId'];
+        $newItem['price'] = $_POST['itemPrice'];
+        $newItem['img'] = $_POST['itemImg'];
+        
+        foreach($_SESSION['cart'] as &$item)
+        {
+            if($newItem['id'] == $item['id'])
+            {
+                $item['quantity'] += 1;
+                $found = true;
+            }
+        }
+        
+        if($found != true)
+        {
+            $newItem['quantity'] = 1;
+            
+            // Storing the item array in the cart array
+            array_push($_SESSION['cart'], $newItem);
+            
+        }
+        
     }
     
 ?>
@@ -38,7 +71,12 @@
                     </div>
                     <ul class='nav navbar-nav'>
                         <li><a href='index.php'>Home</a></li>
-                        <li><a href='scart.php'>Cart</a></li>
+                        <li>
+                            <a href='scart.php'>
+                            <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'></span>
+                            Cart: <?php displayCartCount(); ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -54,8 +92,9 @@
                 <br /><br />
             </form>
             
-            <!-- Display Search Results -->
             
+            
+            <!-- Display Search Results -->
             <?php displayResults(); ?>
             
         </div>
