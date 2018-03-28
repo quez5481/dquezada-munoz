@@ -2,10 +2,9 @@
     function getDatabaseConnection($dbName)
     {
         $host = "localhost";
-        $dbname = "ottermart";
         $username = "root";
         $password = "";
-        $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+        $dbConn = new PDO("mysql:host=$host;dbname=$dbName", $username, $password);
         $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         
         return $dbConn;
