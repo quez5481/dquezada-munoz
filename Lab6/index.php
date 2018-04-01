@@ -5,7 +5,8 @@
     
     $conn = getDatabaseConnection("ottermart");
 
-    function displayCategories(){
+    function displayCategories()
+    {
         global $conn;
         
         $sql = "SELECT catId, catName FROM `category` ORDER BY catName";
@@ -16,7 +17,8 @@
         
         //print_r($records);
         
-        foreach ($records as $record) {
+        foreach ($records as $record) 
+        {
             
             echo "<option value='".$record["catId"]."' >" . $record["catName"] . "</option>";
             
@@ -39,28 +41,56 @@
             
             $namedParameters = array();
             
-            $sql = "SELECT * FROM om_product WHERE 1";
+            $sql = "SELECT * FROM product WHERE 1";
             
-            if (!empty($_GET['product'])) { //checks whether user has typed something in the "Product" text box
+            if (!empty($_GET['product'])) //checks whether user has typed something in the "Product" text box
+            { 
                  $sql .=  " AND productName LIKE :productName";
                  $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
             }
                   
                   
-             if (!empty($_GET['category'])) { //checks whether user has typed something in the "Product" text box
+            if (!empty($_GET['category'])) //checks whether user has selected a category
+            { 
                  $sql .=  " AND catId = :categoryId";
                  $namedParameters[":categoryId"] =  $_GET['category'];
-            }        
+            } 
             
-            //echo $sql; //for debugging purposes
+            if (!empty($_GET['priceFrom'])) //checks whether user has typed a price from
+            { 
+                 $sql .=  " AND price >= :priceFrom";
+                 $namedParameters[":priceFrom"] =  $_GET['priceFrom'];
+            }  
+            if (!empty($_GET['priceTo'])) //checks whether user has typed a price to
+            { 
+                 $sql .=  " AND price <= :priceTo";
+                 $namedParameters[":priceTo"] =  $_GET['priceTo'];
+            }  
+            
+            if(isset($_GET['orderBy']))
+            {
+                if($_GET['orderBy'] == "price")
+                {
+                    $sql .= " ORDER BY price";
+                }
+                else 
+                {
+                    $sql .= " ORDER BY productName";
+                }
+            }
+            
+            
+            
+            echo $sql; //for debugging purposes
             
              $stmt = $conn->prepare($sql);
              $stmt->execute($namedParameters);
              $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
-            foreach ($records as $record) {
-            
-                 echo  $record["productName"] . " " . $record["productDescription"] . "<br />";
+            foreach ($records as $record) 
+            {
+                echo "<a href=\"purchaseHistory.php?productId=" . $record["productId"] . "\"> History </a>";
+                echo  $record["productName"] . " " . $record["productDescription"] . $record["price"] . "<br />";
             
             }
         }
