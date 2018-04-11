@@ -802,3 +802,156 @@ Stack trace:
 #1 /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php(140): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/dquezada-munoz/Lab6/index.php on line 87
+[02-Apr-2018 21:40:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/dquezada-munoz/Lab7/logInProcess.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/dquezada-munoz/Lab7/logInProcess.php(31): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/dquezada-munoz/Lab7/logInProcess.php on line 31
+[02-Apr-2018 21:51:51 UTC] PHP Fatal error:  Call to undefined function displayProducts() in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 44
+[02-Apr-2018 21:51:51 UTC] PHP Stack trace:
+[02-Apr-2018 21:51:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:52:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:52:28 UTC] PHP Stack trace:
+[02-Apr-2018 21:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:52:28 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 21:52:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:52:52 UTC] PHP Stack trace:
+[02-Apr-2018 21:52:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:52:52 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 21:52:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:52:54 UTC] PHP Stack trace:
+[02-Apr-2018 21:52:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:52:54 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 21:52:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:52:55 UTC] PHP Stack trace:
+[02-Apr-2018 21:52:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:52:55 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 21:52:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:52:55 UTC] PHP Stack trace:
+[02-Apr-2018 21:52:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:52:55 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 21:52:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:52:56 UTC] PHP Stack trace:
+[02-Apr-2018 21:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:52:56 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 21:54:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:54:00 UTC] PHP Stack trace:
+[02-Apr-2018 21:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:54:00 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 21:56:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:56:04 UTC] PHP Stack trace:
+[02-Apr-2018 21:56:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:56:04 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 21:56:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 11
+[02-Apr-2018 21:56:05 UTC] PHP Stack trace:
+[02-Apr-2018 21:56:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 21:56:05 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:44
+[02-Apr-2018 22:00:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:11 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:11 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:13 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:13 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:13 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:13 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:14 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:14 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:15 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:15 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:15 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:15 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:15 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:15 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:16 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:16 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:16 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:16 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:16 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:16 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:00:16 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 13
+[02-Apr-2018 22:00:16 UTC] PHP Stack trace:
+[02-Apr-2018 22:00:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:00:16 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:50
+[02-Apr-2018 22:12:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:12:18 UTC] PHP Stack trace:
+[02-Apr-2018 22:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:12:18 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:12:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:12:27 UTC] PHP Stack trace:
+[02-Apr-2018 22:12:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:12:27 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:17:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:17:08 UTC] PHP Stack trace:
+[02-Apr-2018 22:17:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:17:08 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:17:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:17:09 UTC] PHP Stack trace:
+[02-Apr-2018 22:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:17:09 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:17:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:17:09 UTC] PHP Stack trace:
+[02-Apr-2018 22:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:17:09 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:17:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:17:09 UTC] PHP Stack trace:
+[02-Apr-2018 22:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:17:09 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:17:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:17:09 UTC] PHP Stack trace:
+[02-Apr-2018 22:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:17:09 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:17:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:17:09 UTC] PHP Stack trace:
+[02-Apr-2018 22:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:17:09 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:17:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:17:10 UTC] PHP Stack trace:
+[02-Apr-2018 22:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:17:10 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:17:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 20
+[02-Apr-2018 22:17:10 UTC] PHP Stack trace:
+[02-Apr-2018 22:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:17:10 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:57
+[02-Apr-2018 22:28:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 21
+[02-Apr-2018 22:28:14 UTC] PHP Stack trace:
+[02-Apr-2018 22:28:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:28:14 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:61
+[02-Apr-2018 22:28:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 21
+[02-Apr-2018 22:28:22 UTC] PHP Stack trace:
+[02-Apr-2018 22:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:28:22 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:61
+[02-Apr-2018 22:28:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 21
+[02-Apr-2018 22:28:52 UTC] PHP Stack trace:
+[02-Apr-2018 22:28:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[02-Apr-2018 22:28:52 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:61
+[02-Apr-2018 22:29:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 64
+[02-Apr-2018 22:29:52 UTC] PHP Stack trace:
+[02-Apr-2018 22:29:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[04-Apr-2018 21:17:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php on line 64
+[04-Apr-2018 21:17:22 UTC] PHP Stack trace:
+[04-Apr-2018 21:17:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/admin.php:0
+[04-Apr-2018 22:35:54 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 66 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[04-Apr-2018 22:35:54 UTC] PHP Stack trace:
+[04-Apr-2018 22:35:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[04-Apr-2018 22:35:54 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:66
+[04-Apr-2018 22:36:48 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 66 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[04-Apr-2018 22:36:48 UTC] PHP Stack trace:
+[04-Apr-2018 22:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[04-Apr-2018 22:36:48 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:66
+[09-Apr-2018 22:38:25 UTC] PHP Fatal error:  Call to undefined function playGame() in /home/ubuntu/workspace/dquezada-munoz/Challenge5/guessNumber.php on line 51
+[09-Apr-2018 22:38:25 UTC] PHP Stack trace:
+[09-Apr-2018 22:38:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Challenge5/guessNumber.php:0
