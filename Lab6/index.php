@@ -1,5 +1,6 @@
 
 <?php
+    echo "here";
 
     include '../Practice/dbConnection.php';
     
