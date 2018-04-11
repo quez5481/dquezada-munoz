@@ -2,7 +2,7 @@
 <?php
     echo "here";
 
-    include '../Practice/dbConnection.php';
+    include 'dbConnection.php';
     
     $conn = getDatabaseConnection("ottermart");
 

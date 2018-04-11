@@ -1,66 +1,86 @@
 <?php
-
     session_start();
-    if(!isset($_POST["guess"]))
+    // session_destroy();
+    // print_r($_SESSION);
+    
+    if (!isset($_SESSION['randomNumber']) || isset($_GET['reset']))
     {
-     $_SESSION ["count"] = 0;
-     $_POST["numberGuess"] = rand(0,100);
-     echo $_POST['numberGuess'];
-     echo $_POST["guess"];
-    }
-    else if($_POST["guess"] > $_POST["numberGuess"])
-    {
-        
-        $number=  "Guess is too high";
-        $_SESSION["count"]++;
-        echo "Guess is too high";
-    }
-    else if($_POST["guess"] < $_POST["numberGuess"])
-    {
-        
-        $number = "Guess is too high";
-        $_SESSION["count"]++;
-        
-    }
-    else
-    {
-        $_SESSION["count"]++;
-        $number =  "You won in ". $_SEESION["count"] . "attempts";
-        unset($_SESSION["count"]);
+        $_SESSION['randomNumber'] = rand (1,5);
+        $_SESSION['tries'] = 0;
     }
     
-    // if(isset($_GET[''])){
-        
-    // }
+    if (isset($_GET['giveUp'])) 
+    {
+        echo "<h3> The number was: <br />";
+        echo $_SESSION['randomNumber'] . "</h3>";
+    }
     
-    // if(isset($_GET['giveUp'])){
-    //     $_POST["giveUp"] = rand(0,100);
-    //     echo "Try again with a new number";
-    // }
+    function compareNumbers($guess,$number)
+    {
+        if ($guess > $number) 
+        {
+            echo "<p>Your guess is too high</p> <br />";
+        }
+        else if ($guess < $number) 
+        {
+            echo "<p>The guess is to low</p> <br />";
+        } 
+        else 
+        {
+              echo "<p>You've guessed the   number!</p> <br />";
+              $_SESSION['numberGuessed'][] = $number;
+              $_SESSION['totalTries'][] = $_SESSION['tries'];
+              $_SESSION['numberGuessed'] = 0;
+        }
+    }
     
+     
+    
+    
+    ?>
+    <!DOCTYPE html>
+    <html>
+        <head>
+        <title>Guess the Number</title>
+      
+        </head>
+        <body>
 
-
-?>
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Guess the Number!</title>
-    </head>
-    <body>
-        <h1>
-            Guess the Number! 
-        </h1>
-        
-        <form>
-            <h1> <?php echo $number;?></h1>
+            <h2> Guess a number between 1 and 100!</h2>
+            <form>
             
-            <form action="" method='POST'>
-            <input type="text" name="guess"><br>
-            <input type="submit" name="Submit" value="Guess"><br>
-            <input type="submit" name="giveUp" value="Give Up"><br>
-            <input type="submit" name="playAgain" value="Play Again"><br>
-        </form>
-
+            Guess: <input type="text" name="guess" size="3"/>
+            
+            
+            <br /><br />
+            
+            <input type="submit" value="Guess Number" name="guessForm"/>
+            
+            <br /><br />
+            <input type="submit" value="Give Up" name="giveUp"/>
+            <input type="submit" value="Play Again" name="reset"/>
+            
+            </form>
+            <?php
+                if (isset($_GET['guessForm'])) 
+                {
+                    echo "<br />Number of tries: " . ++$_SESSION['tries'] . "<br />";
+                    compareNumbers( $_GET['guess'],$_SESSION['randomNumber']);
+                }
+            ?>
+            
+            
+            <?php
+            
+                if (isset($_SESSION['numberGuessed'])) 
+                {
+                    echo "<h3> Guesses History </h3>";
+                    for ($i=0; $i < count($_SESSION['numberGuessed']); $i++ ) 
+                    {
+                        echo "You guessed the number " . $_SESSION['numberGuessed'][$i] . " in ". $_SESSION['totalTries'][$i] . " attempts <br />";
+                    }
+                
+                }
+            ?>
     </body>
 </html>
