@@ -8,31 +8,40 @@
     include 'dbConnection.php';
     $conn = getDatabaseConnection("ottermart");
 
-    $productId = $_GET['productId'];
 
-    $sql9 = "SELECT * FROM `product`
+    $sql = "SELECT * FROM `product`
             NATURAL JOIN purchase 
             WHERE productId = :pId";    
     
     $np = array();
-    $np[":pId"] = $productId;
+    $np[":pId"] = $_GET['productId'];
     
-    $stmt = $conn->prepare($sql9);
+    $stmt = $conn->prepare($sql);
     $stmt->execute($np);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    print_r($records);
+    // print_r($records);
     
-    echo $records[0]['productName'] . "<br>";
-    echo "<img src='" . $records[0]['productImage'] . "' width='200' /><br/>";
+    if(empty($records))
+    {
+        echo "<br><br><h2>Product has not been purchased</h2><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
+    }
+    else
+    {
+        echo "<strong>"  .  $records[0]['productName'] . "</strong><br>";
+        echo "<img src='" . $records[0]['productImage'] . "' width='200' /><br/>";
     
-    foreach ($records as $record) {
+        foreach ($records as $record)
+        {
         
-        echo "Purchase Date: " . $record["purchaseDate"] . "<br />";
-        echo "Unit Price: " . $record["unitPrice"] . "<br />";
-        echo "Quantity: " . $record["quantity"] . "<br />";
+        echo "<strong>Purchase Date: </strong>" . $record["purchaseDate"] . "<br />";
+        echo "<strong>Unit Price: </strong>" . $record["unitPrice"] . "<br />";
+        echo "<strong>Quantity: </strong>" . $record["quantity"] . "<br />";
      
     }
+    }
+    
+    
 
  ?>
 
@@ -40,8 +49,21 @@
 <html>
     <head>
         <title> </title>
+        <link href="styles.css"type="text/css" rel="stylesheet" />
     </head>
     <body>
-
+    
+        <footer>
+            <br/><br/>
+            <div>
+                <hr>
+                Internet Programming. 2018&copy; Quezada <br/>
+                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+                It is used for academic purposes only.
+            </div>
+            
+            <br/>
+            <img src="csumb_logo_150_86.jpg" alt"csumbLogo">
+        </footer>
     </body>
 </html>
