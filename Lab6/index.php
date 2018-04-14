@@ -1,6 +1,5 @@
 
 <?php
-    echo "here";
 
     include 'dbConnection.php';
     
@@ -82,7 +81,7 @@
             
             
             
-            echo $sql; //for debugging purposes
+            // echo $sql; //for debugging purposes
             
              $stmt = $conn->prepare($sql);
              $stmt->execute($namedParameters);
@@ -91,7 +90,7 @@
             foreach ($records as $record) 
             {
                 echo "<a href=\"purchaseHistory.php?productId=" . $record["productId"] . "\"> History </a>";
-                echo  $record["productName"] . " " . $record["productDescription"] . $record["price"] . "<br />";
+                echo  $record["productName"] . " Description: " . $record["productDescription"] . " Price: "  .  $record["price"] . "<br />";
             
             }
         }
