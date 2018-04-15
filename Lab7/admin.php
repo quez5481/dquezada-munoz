@@ -9,11 +9,15 @@
     
     if (isset($_GET["msg"]) && $_GET["msg"] == 'added') 
     {
-        echo "<strong>Item successfully added to the database.</strong><br><br>";
+        echo "<strong>Item successfully added in database.</strong><br><br>";
     }
     if (isset($_GET["msg"]) && $_GET["msg"] == 'updated') 
     {
-        echo "<strong>Item successfully updated in the database.</strong><br><br>";
+        echo "<strong>Item successfully updated in database.</strong><br><br>";
+    }
+    if (isset($_GET["msg"]) && $_GET["msg"] == 'deleted') 
+    {
+        echo "<strong>Item successfully deleted in database.</strong><br><br>";
     }
     
     
@@ -44,6 +48,7 @@
 <html>
     <head>
         <title> Admin Main Page </title>
+        <link href="styles.css"type="text/css" rel="stylesheet" />
         <style>
             form 
             {
@@ -100,6 +105,21 @@
             }
             
         ?>
+        
+        
+        
+        <footer>
+            <br/><br/>
+            <div>
+                <hr>
+                Internet Programming. 2018&copy; Quezada <br/>
+                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+                It is used for academic purposes only.
+            </div>
+            
+            <br/>
+            <img src="csumb_logo_150_86.jpg" alt"csumbLogo">
+        </footer>
         
         
         

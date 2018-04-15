@@ -75,6 +75,7 @@
 <html>
     <head>
         <title>Update Product</title>
+        <link href="styles.css"type="text/css" rel="stylesheet" />
     </head>
     <body>
         <h1>Update Product</h1>
@@ -96,5 +97,18 @@
                 <input type="text" name="productImage"><br>
                 <input type="submit" name="submitProduct" value="Update Product"><br>
         </form>
+        
+        <footer>
+            <br/><br/>
+            <div>
+                <hr>
+                Internet Programming. 2018&copy; Quezada <br/>
+                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+                It is used for academic purposes only.
+            </div>
+            
+            <br/>
+            <img src="csumb_logo_150_86.jpg" alt"csumbLogo">
+        </footer>
     </body>
 </html>

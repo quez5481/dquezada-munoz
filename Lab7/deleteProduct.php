@@ -8,13 +8,14 @@
     $statement = $connection->prepare($sql);
     $statement->execute();
     
-    header("Location: admin.php");
+    header("Location: admin.php?msg=deleted");
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <title> </title>
+        <link href="styles.css"type="text/css" rel="stylesheet" />
     </head>
     <body>
 
