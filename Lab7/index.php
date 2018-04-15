@@ -1,3 +1,13 @@
+<?php
+    if (isset($_GET["msg"]) && $_GET["msg"] == 'failed')
+    {
+        echo "<strong>Wrong Username or Password</strong><br><br>";
+    }
+    if (isset($_GET["msg"]) && $_GET["msg"] == 'exit')
+    {
+        echo "<strong>Successful Logout</strong><br><br>";
+    }
+?>
 <!DOCTYPE html>
 <htmml>
     <head>

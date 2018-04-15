@@ -35,8 +35,7 @@
 
     if (empty($record))
     {
-        echo "Wrong username or password!";
-        
+        header("Location:index.php?msg=failed");
     } 
     else
     {

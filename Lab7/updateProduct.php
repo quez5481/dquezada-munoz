@@ -38,7 +38,7 @@
         return $record;
     }
     
-    if (isset($_GET['updateProduct'])) 
+    if (isset($_GET['submitProduct'])) 
     {
         
         //echo "Trying to update the product!";
@@ -58,10 +58,10 @@
         $np[":catId"] = $_GET['catId'];
         $np[":productId"] = $_GET['productId'];
                 
-        $statement = $connection->prepare($sql);
-        $statement->execute($np);        
-
+        $statement = $conn->prepare($sql);
+        $statement->execute($np); 
         
+        header("Location:admin.php?msg=updated");
     }
     
     if(isset($_GET['productId']))
@@ -80,8 +80,9 @@
         <h1>Update Product</h1>
 
         <form>
+            <input type="hidden" name="productId" value= "<?=$product['productId']?>"/>
             Product name: 
-                <input type="text" value="<?=$product['productName']?>"><br>
+                <input type="text" value="<?=$product['productName']?>" name="productName"><br>
             Description: 
                 <textarea  name="description" cols= 50 rows=4><?=$product['productDescription']?></textarea><br>
             Price: 
@@ -89,7 +90,7 @@
             Category:
                 <select name="catId">
                     <option value="">Select One</option>
-                    <?=getCategories();?>
+                    <?=getCategories($product['catId']);?>
                 </select>
             Set Image URL: 
                 <input type="text" name="productImage"><br>

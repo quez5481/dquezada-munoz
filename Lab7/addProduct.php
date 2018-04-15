@@ -1,9 +1,11 @@
 <?php
     
-    // if(!isset( $_SESSION['adminName']))
-    // {
-    //   header("Location:index.php");
-    // }
+    
+    session_start();
+    if(!isset( $_SESSION['adminName']))
+    {
+      header("Location:index.php");
+    }
     
     include "../Practice/dbConnection.php";
     $conn = getDatabaseConnection("ottermart");
@@ -47,6 +49,8 @@
         
         $stmt = $conn->prepare($sql);
         $stmt->execute($namedParameters);
+        header("Location:admin.php?msg=added");
+        
     }
 
 ?>
@@ -67,7 +71,7 @@
             Price: 
                 <input type="text" name="price"><br>
             Category:
-                <select>
+                <select name="catId">
                     <option value="">Select One</option>
                     <?=getCategories();?>
                 </select>

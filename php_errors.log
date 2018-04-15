@@ -955,3 +955,128 @@ Stack trace:
 [09-Apr-2018 22:38:25 UTC] PHP Fatal error:  Call to undefined function playGame() in /home/ubuntu/workspace/dquezada-munoz/Challenge5/guessNumber.php on line 51
 [09-Apr-2018 22:38:25 UTC] PHP Stack trace:
 [09-Apr-2018 22:38:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Challenge5/guessNumber.php:0
+[15-Apr-2018 02:40:17 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 02:40:17 UTC] PHP Stack trace:
+[15-Apr-2018 02:40:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 02:40:17 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 02:41:00 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 02:41:00 UTC] PHP Stack trace:
+[15-Apr-2018 02:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 02:41:00 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 02:41:14 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 02:41:14 UTC] PHP Stack trace:
+[15-Apr-2018 02:41:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 02:41:14 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 02:41:19 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 02:41:19 UTC] PHP Stack trace:
+[15-Apr-2018 02:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 02:41:19 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 02:42:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catId' cannot be null' in /home/ubuntu/workspace/dquezada-munoz/Lab7/addProduct.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/dquezada-munoz/Lab7/addProduct.php(49): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dquezada-munoz/Lab7/addProduct.php on line 49
+[15-Apr-2018 02:52:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'catId' cannot be null' in /home/ubuntu/workspace/dquezada-munoz/Lab7/addProduct.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/dquezada-munoz/Lab7/addProduct.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dquezada-munoz/Lab7/addProduct.php on line 51
+[15-Apr-2018 03:10:00 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:10:00 UTC] PHP Stack trace:
+[15-Apr-2018 03:10:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:10:00 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:10:04 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:10:04 UTC] PHP Stack trace:
+[15-Apr-2018 03:10:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:10:04 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:10:12 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:10:12 UTC] PHP Stack trace:
+[15-Apr-2018 03:10:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:10:12 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:10:19 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:10:19 UTC] PHP Stack trace:
+[15-Apr-2018 03:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:10:19 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:10:26 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:10:26 UTC] PHP Stack trace:
+[15-Apr-2018 03:10:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:10:26 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:13:26 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:13:26 UTC] PHP Stack trace:
+[15-Apr-2018 03:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:13:26 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:13:32 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:13:32 UTC] PHP Stack trace:
+[15-Apr-2018 03:13:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:13:32 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:14:14 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:14:14 UTC] PHP Stack trace:
+[15-Apr-2018 03:14:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:14:14 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:14:44 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:14:44 UTC] PHP Stack trace:
+[15-Apr-2018 03:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:14:44 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:31:10 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:31:10 UTC] PHP Stack trace:
+[15-Apr-2018 03:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:31:10 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:31:14 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:31:14 UTC] PHP Stack trace:
+[15-Apr-2018 03:31:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:31:14 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:39:26 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:39:26 UTC] PHP Stack trace:
+[15-Apr-2018 03:39:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:39:26 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:39:35 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:39:35 UTC] PHP Stack trace:
+[15-Apr-2018 03:39:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:39:35 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:44:06 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:44:06 UTC] PHP Stack trace:
+[15-Apr-2018 03:44:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:44:06 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:44:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 61
+[15-Apr-2018 03:44:11 UTC] PHP Stack trace:
+[15-Apr-2018 03:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:45:12 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:45:12 UTC] PHP Stack trace:
+[15-Apr-2018 03:45:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:45:12 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:45:18 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:45:18 UTC] PHP Stack trace:
+[15-Apr-2018 03:45:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:45:18 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:45:24 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 92 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:45:24 UTC] PHP Stack trace:
+[15-Apr-2018 03:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:45:24 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:92
+[15-Apr-2018 03:49:54 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 93 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:49:54 UTC] PHP Stack trace:
+[15-Apr-2018 03:49:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:49:54 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:93
+[15-Apr-2018 03:49:57 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 93 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:49:57 UTC] PHP Stack trace:
+[15-Apr-2018 03:49:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:49:57 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:93
+[15-Apr-2018 03:50:01 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 93 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:50:01 UTC] PHP Stack trace:
+[15-Apr-2018 03:50:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:50:01 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:93
+[15-Apr-2018 03:50:09 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 93 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:50:09 UTC] PHP Stack trace:
+[15-Apr-2018 03:50:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:50:09 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:93
+[15-Apr-2018 03:50:13 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 93 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:50:13 UTC] PHP Stack trace:
+[15-Apr-2018 03:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:50:13 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:93
+[15-Apr-2018 03:50:26 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 93 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:50:26 UTC] PHP Stack trace:
+[15-Apr-2018 03:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:50:26 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:93
+[15-Apr-2018 03:50:28 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 93 and defined in /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php on line 6
+[15-Apr-2018 03:50:28 UTC] PHP Stack trace:
+[15-Apr-2018 03:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:0
+[15-Apr-2018 03:50:28 UTC] PHP   2. getCategories() /home/ubuntu/workspace/dquezada-munoz/Lab7/updateProduct.php:93

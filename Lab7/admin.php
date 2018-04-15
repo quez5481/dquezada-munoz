@@ -2,10 +2,19 @@
 
     session_start();
     
-    // if(!isset($_SESSION['adminName']))
-    // {
-    //     header("Location:index.php");
-    // }
+    if(!isset($_SESSION['adminName']))
+    {
+        header("Location:index.php");
+    }
+    
+    if (isset($_GET["msg"]) && $_GET["msg"] == 'added') 
+    {
+        echo "<strong>Item successfully added to the database.</strong><br><br>";
+    }
+    if (isset($_GET["msg"]) && $_GET["msg"] == 'updated') 
+    {
+        echo "<strong>Item successfully updated in the database.</strong><br><br>";
+    }
     
     
     include '../Practice/dbConnection.php';
@@ -35,6 +44,20 @@
 <html>
     <head>
         <title> Admin Main Page </title>
+        <style>
+            form 
+            {
+                display: inline;
+            }
+        </style>
+        
+        <script>
+            function confirmDelete() 
+            {
+                return confirm("Are you sure you want to delete it?");
+            }
+            
+        </script>
     </head>
     <body>
 
@@ -50,6 +73,12 @@
             <input type="submit" name="addproduct" value="Add Product"/>
         </form>
         
+        <form action="logout.php">
+            <input type="submit"  value="Logout"/>
+        </form>
+        
+        <br /><br />
+        
         <strong> Products: </strong> <br />
         
         <?php 
@@ -58,8 +87,14 @@
             
             foreach($records as $record)
             {
-                echo "<a href='updateProduct.php?productId=".$record['productId']."'>Update</a";
-                echo "<a href='deleteProduct.php?productId=".$record['productId']."'>Delete</a>";
+                echo "<a href='updateProduct.php?productId=".$record['productId']."'>Update </a>";
+                // echo "<a href='deleteProduct.php?productId=".$record['productId']."'>Delete </a>";
+                
+                echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
+                echo "<input type='hidden' name='productId' value= " . $record['productId'] . " />";
+                echo "<input type='submit' value='Delete'>";
+                echo "</form>";
+                
                 echo $record['productName'];
                 echo '<br>';
             }
