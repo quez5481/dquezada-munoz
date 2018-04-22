@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Quiz </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+       <script>
+            
+            $(document).ready( function(){
+                
+                
+                  $("#submitBtn").click( function(){ 
+                      //alert(  $("#q1").val()  );
+                      
+                      if (  $("#q1").val().toUpperCase() == "SACRAMENTO"  ) {
+                          
+                         // alert("Correct!");
+                         
+                         $("#feedback1").html(" Correct! The capital is Sacramento!");
+                         
+                          
+                      } 
+                      else 
+                      {
+                          
+                         // alert("Incorrect!");
+                         
+                            $("#feedback1").html(" Incorrect! The capital is Sacramento!");
+                      }
+                        // alert("hi");
+                        if($("#q2").val().toUpperCase() == "AUDI")
+                        {
+                            // alert("Correct!");
+                            $("#feedback2").html("Correct! The German car is audi");
+                        }
+                        else
+                        {
+                            // alert("Incorrect!");
+                            $("#feedback2").html("Incorrect!");
+                        }
+                  } );
+                  
+                  
+                   
+                  
+                  $("#btn3").click( function(){
+                       
+                    $("#cat").attr('src','now_you_dont.png');  
+                    $("#btn3").html("Appear"); 
+                    
+                        
+                    I
+                        
+                      
+                      
+                      
+                
+                  } );
+                  
+                  
+
+            });
+            
+            
+            
+        </script>        
+    
+    </head>
+    <body>
+
+
+        1. What is the capital of California?
+        
+        <input id="q1" type="text">
+        
+        <div id="feedback1"></div>
+        
+        
+        
+
+        
+        
+        
+        
+           2. What car is German?
+        <select id="q2">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        
+        <div id="feedback2"></div>
+        
+        <button id="submitBtn"> Submit Quiz </button>
+        
+        
+        
+        <br><br><br><br><br><br><br>
+        
+        
+    
+            <img id="cat" src="now_you_see_me.png">
+            
+            <button id = "btn3"> Do Magic! </button>
+    
+
+
+    </body>
+    
+  
+</html>
