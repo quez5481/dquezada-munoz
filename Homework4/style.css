@@ -1,0 +1,40 @@
+h1, h2
+{
+    text-align:center;
+}
+p
+{
+    text-align:center;
+    clear: both;
+}
+footer
+{
+    text-align: center;
+    clear: both;
+    font-size:.8em;
+    padding-top: 10px;
+}
+footer img
+{
+    clear: both;
+    display: block;
+    margin: 0px auto;
+}
+#player1, #player2, #player3, #player4
+{
+    display: center;
+    margin: 0px auto;
+    width: 150px;
+}
+#river
+{
+    display:block;
+    margin: 0px auto;
+    width: 365px;
+}
+#cards
+{
+    display:block;
+    margin: 0px auto;
+    width: 600px;
+}
