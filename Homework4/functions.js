@@ -1,5 +1,7 @@
 window.onload = play();
 
+
+
 function play()
 {
     var deck = []; 
@@ -11,14 +13,14 @@ function play()
             deck.push(crypt); // Creates Deck in-order
         }
     }
-    var shuffledDeck = shuffle(deck); // Shuffles Deck
     
+    var shuffledDeck = shuffle(deck); // Shuffles Deck
     dealGame(shuffledDeck);
 }
 
 function shuffle (unshuffledDeck) 
 {
-        var i = 0, j = 0, temp = null;
+    var i = 0, j = 0, temp = null;
 
     for (i = unshuffledDeck.length - 1; i > 0; i -= 1) 
     {
@@ -69,7 +71,7 @@ function dealGame(shuffledDeck)
     {
         for(var player = 0; player <= 3; player++)
         {
-             var lastCard = shuffledDeck.pop(); 
+            var lastCard = shuffledDeck.pop(); 
             players[player][round] = lastCard; // "Deals cards to players" stores in array
         }
         round++;
@@ -102,6 +104,7 @@ function displayGame(playerCards)
         }
         player++;
     }
+    
     while(player <= 3);
     
 }
@@ -111,11 +114,10 @@ function displayCard(card)
     var suit = Math.floor(card/100); // decrypts suit
     var value = card%100; // decrpyts card
     
-    // console.log(suit);
-    // console.log(value);
     
     var image = "<img src='cards/" + suit + "/" + value + ".png'>"
     
     return image;
 }
+
 
