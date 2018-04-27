@@ -6,57 +6,84 @@
 
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         <script>
-        
-            function validateForm() {
-                
+            function validateForm()
+            {
                 return false;
-           
             }
-            
         </script>
-        
         <script>
-            
-            
             $(document).ready( function()
             {
-                // EVENTS
-                $("#state").change(function() 
+                //EVENTS
+                $("#username").change( function()
+                { 
+                    //alert( $("#username").val() )
+                    $.ajax
+                    ({
+                        type: "GET",
+                        url: "checkUsernameAPI.php",
+                        dataType: "json",
+                        data: 
+                        { 
+                            "username": $("#username").val() 
+                        },
+                        success: function(data,status)
+                        {
+                             //alert(data);
+                             if (!data) 
+                             {  
+                                // alert("Username is Available");
+                                $("#user").html("<span style='color:green;'> Username is Available</span>");
+                             } 
+                             else
+                             { 
+                                // alert("Username is ALREADY TAKEN");
+                                $("#user").html("<span style='color:red'> Username is ALREADY TAKEN</span>");
+                             }
+                        },
+                        complete: function(data,status) 
+                        {
+                            //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    });//ajax
+                    
+                });
+                
+                $("#state").change( function () 
                 {
-                    // alert($("#state").val());
+                    //alert("hi")
+                    //alert( $("#state").val());
                     
                     $.ajax
                     ({
                         type: "GET",
                         url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
                         dataType: "json",
-                        data: 
-                        { 
-                            "state": $("#state").val(), 
-                        },
-                        success: function(data,status)
+                        data: { "state": $("#state").val()},
+                        success: function(data,status) {
+                        //alert(data[0]['county']);
+                        //alert(data[0].county);
+                        $("#county").html("<option>Select One</option>");
+                        for(var i=0; i<data.length; i++)
                         {
-                           // alert(data.city);
-                           
-                           $("#county").html("<option>" + state[0].county + "</option>");
-                           $("#county").html("<option>Select One</option>");
-                            for(var i=0; i<data.length; i++)
-                            {
-                               $("#county").append("<option>" + data[i].county + "</option>"); 
-                            }
-                        },
-                        complete: function(data,status) 
-                        { 
-                            // optional, used for debugging purposes
-                            // alert(status);
+                           $("#county").append("<option>" + data[i].county + "</option>"); 
                         }
                         
-                    }); // ajax
+                        },
+                        complete: function(data,status)
+                        { 
+                            //optional, used for debugging purposes
+                            //alert(status);
+                        }
+                    });//ajax
+                    
+                    
                 });
                 
                 $("#zipCode").change( function()
                 {  
-                    // alert( $("#zipCode").val() );
+                    //alert( $("#zipCode").val() );
                     
                     $.ajax
                     ({
@@ -69,22 +96,30 @@
                             "latitude": $("#latitude").val(), 
                             "longitude": $("#longitude").val() 
                         },
-                        success: function(data,status)
+                        success: function(data,status) 
                         {
-                           // alert(data.city);
-                           
-                           $("#city").html(data.city);
-                           $("#latitude").html(data.latitude);
-                           $("#longitude").html(data.longitude);
+                            if(!data)
+                            {
+                                $("#zip").html("<span> ZIP Code not Found</span>");
+                                $("#city").html("");
+                                $("#latitude").html("");
+                                $("#longitude").html("");
+                            }
+                            else
+                            {
+                                // alert(data.city);
+                                $("#zip").html("<span></span>");
+                                $("#city").html(data.city);
+                                $("#latitude").html(data.latitude);
+                                $("#longitude").html(data.longitude);
+                            }
                         },
-                        complete: function(data,status) 
+                        complete: function(data,status)
                         { 
                             // optional, used for debugging purposes
                             // alert(status);
                         }
-                        
-                    }); // ajax
-                    
+                    });// ajax
                 }); // #zipCode Event 
             }); // documentReady
             
@@ -94,9 +129,7 @@
     </head>
 
     <body>
-    
-       <h1> Sign Up Form </h1>
-    
+        <h1> Sign Up Form </h1>
         <form onsubmit="return validateForm()">
             <fieldset>
                <legend>Sign Up</legend>
@@ -104,14 +137,11 @@
                 Last Name:   <input type="text"><br> 
                 Email:       <input type="text"><br> 
                 Phone Number:<input type="text"><br><br>
-                Zip Code:    <input type="text" id="zipCode"><br>
-                City:        <span id="city"></span>
-                <br>
-                Latitude:    <span id="latitude"></span>
-                <br>
-                Longitude:   <span id="longitude"></span>
-                <br><br>
-                State: 
+                Zip Code:    <input type="text" id="zipCode"><span id="zip"></span><br>
+                City:        <span id="city"></span><br>
+                Latitude:    <span id="latitude"></span><br>
+                Longitude:   <span id="longitude"></span><br><br>
+                State:     
                 <select id="state">
                     <option value="">Select One</option>
                     <option value="ca"> California</option>
@@ -120,13 +150,13 @@
                     <option value="va"> Virginia</option>
                 </select><br />
                 
-                Select a County: <select></select><br>
+                Select a County: <select id="county"></select><br>
                 
-                Desired Username: <input type="text"><br>
+                Desired Username: </span><input id="username" type="text"><span id="user"></span><br>
                 
-                Password: <input type="password"><br>
+                Password: <input type="password"></div><br>
                 
-                Type Password Again: <input type="password"><br>
+                Type Password Again: <form method="POST" action="logInProcess.php"><input type="password"></form><br>
                 
                 <input type="submit" value="Sign up!">
             </fieldset>
