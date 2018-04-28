@@ -6,12 +6,6 @@
 
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         <script>
-            function validateForm()
-            {
-                return false;
-            }
-        </script>
-        <script>
             $(document).ready( function()
             {
                 //EVENTS
@@ -122,15 +116,29 @@
                     });// ajax
                 }); // #zipCode Event 
             }); // documentReady
-            
-            
         </script>
+        
+        <style>
+            footer
+            {
+                text-align: center;
+                clear: both;
+                font-size:.8em;
+                padding-top: 10px;
+            }
+            footer img
+            {
+                clear: both;
+                display: block;
+                margin: 0px auto;
+            }
+        </style>
 
     </head>
 
     <body>
         <h1> Sign Up Form </h1>
-        <form onsubmit="return validateForm()">
+        <form onsubmit="return validate(this)">
             <fieldset>
                <legend>Sign Up</legend>
                 First Name:  <input type="text"><br> 
@@ -150,17 +158,48 @@
                     <option value="va"> Virginia</option>
                 </select><br />
                 
-                Select a County: <select id="county"></select><br>
+                Select a County:    <select id="county"></select><br>
+                Desired Username:   <input id="username" type="text"><span id="user"></span><br>
+                Password:           <input name="password1" type="password"></div><br>
+                Type Password Again:<input name="password2" type="password"><br>
                 
-                Desired Username: </span><input id="username" type="text"><span id="user"></span><br>
-                
-                Password: <input type="password"></div><br>
-                
-                Type Password Again: <form method="POST" action="logInProcess.php"><input type="password"></form><br>
-                
-                <input type="submit" value="Sign up!">
+                <input type="submit" value="Sign up!" name="signUpForm">
             </fieldset>
         </form>
+            
+        <script>
+            function validate(form)
+            {
+                if(form.password1.value == "" && form.password2.value == "" )
+                {
+                    alert("password fields has been left empty..");
+                    return false;
+                }
+                else if(form.password1.value == form.password2.value)
+                {
+                    alert("form has been successfully processed..");
+                    return true;
+                }
+                else
+                {
+                    alert("passwords do not match..");
+                    return false;
+                }
+            }
+        </script>
+        
+        <footer>
+            <br/><br/>
+            <div>
+                <hr>
+                Internet Programming. 2018&copy; Quezada <br/>
+                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+                It is used for academic purposes only.
+            </div>
+            
+            <br/>
+            <img src="../Practice/csumb_logo_150_86.jpg" alt="csumbLogo">
+        </footer>
     
     </body>
 </html>
