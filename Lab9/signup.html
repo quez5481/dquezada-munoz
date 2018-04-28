@@ -24,12 +24,16 @@
                         success: function(data,status)
                         {
                              //alert(data);
-                             if (!data) 
+                             if($("#username").val() == "")
+                             {
+                                $("#user").html("<span></span>");
+                             }
+                             else if (!data) 
                              {  
                                 // alert("Username is Available");
                                 $("#user").html("<span style='color:green;'> Username is Available</span>");
                              } 
-                             else
+                             else 
                              { 
                                 // alert("Username is ALREADY TAKEN");
                                 $("#user").html("<span style='color:red'> Username is ALREADY TAKEN</span>");
