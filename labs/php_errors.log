@@ -1,0 +1,73 @@
+[30-Apr-2018 21:56:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.pets' doesn't exist' in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php(27): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 19
+[30-Apr-2018 21:58:14 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 6
+[30-Apr-2018 22:15:31 UTC] PHP Warning:  include(../../../Practice/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:15:31 UTC] PHP Stack trace:
+[30-Apr-2018 22:15:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:15:31 UTC] PHP   2. include() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:10
+[30-Apr-2018 22:15:31 UTC] PHP Warning:  include(): Failed opening '../../../Practice/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:15:31 UTC] PHP Stack trace:
+[30-Apr-2018 22:15:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:15:31 UTC] PHP   2. include() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:10
+[30-Apr-2018 22:18:10 UTC] PHP Warning:  include(../../../Practice/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:18:10 UTC] PHP Stack trace:
+[30-Apr-2018 22:18:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:18:10 UTC] PHP   2. include() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:10
+[30-Apr-2018 22:18:10 UTC] PHP Warning:  include(): Failed opening '../../../Practice/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:18:10 UTC] PHP Stack trace:
+[30-Apr-2018 22:18:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:18:10 UTC] PHP   2. include() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:10
+[30-Apr-2018 22:36:32 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 5
+[30-Apr-2018 22:36:32 UTC] PHP Stack trace:
+[30-Apr-2018 22:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:36:32 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 5
+[30-Apr-2018 22:36:32 UTC] PHP Stack trace:
+[30-Apr-2018 22:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:36:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 9
+[30-Apr-2018 22:36:32 UTC] PHP Stack trace:
+[30-Apr-2018 22:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:36:32 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:58
+[30-Apr-2018 22:37:16 UTC] PHP Warning:  include(../../header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 3
+[30-Apr-2018 22:37:16 UTC] PHP Stack trace:
+[30-Apr-2018 22:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:37:16 UTC] PHP Warning:  include(): Failed opening '../../header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 3
+[30-Apr-2018 22:37:16 UTC] PHP Stack trace:
+[30-Apr-2018 22:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:37:16 UTC] PHP Warning:  include(../../footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 77
+[30-Apr-2018 22:37:16 UTC] PHP Stack trace:
+[30-Apr-2018 22:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[30-Apr-2018 22:37:16 UTC] PHP Warning:  include(): Failed opening '../../footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 77
+[30-Apr-2018 22:37:16 UTC] PHP Stack trace:
+[30-Apr-2018 22:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[06-May-2018 00:28:32 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 5
+[06-May-2018 00:28:32 UTC] PHP Stack trace:
+[06-May-2018 00:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[06-May-2018 00:28:32 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 5
+[06-May-2018 00:28:32 UTC] PHP Stack trace:
+[06-May-2018 00:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[06-May-2018 00:28:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php on line 9
+[06-May-2018 00:28:32 UTC] PHP Stack trace:
+[06-May-2018 00:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:0
+[06-May-2018 00:28:32 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/pets.php:72
+[06-May-2018 01:28:22 UTC] PHP Warning:  Illegal string offset 'pictureURL' in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php on line 58
+[06-May-2018 01:28:22 UTC] PHP Stack trace:
+[06-May-2018 01:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php:0
+[06-May-2018 01:37:13 UTC] PHP Warning:  Illegal string offset 'pictureURL' in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php on line 57
+[06-May-2018 01:37:13 UTC] PHP Stack trace:
+[06-May-2018 01:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php:0
+[06-May-2018 01:39:29 UTC] PHP Warning:  Illegal string offset 'pictureURL' in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php on line 57
+[06-May-2018 01:39:29 UTC] PHP Stack trace:
+[06-May-2018 01:39:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php:0
+[06-May-2018 01:40:15 UTC] PHP Warning:  Illegal string offset 'pictureURL' in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php on line 57
+[06-May-2018 01:40:15 UTC] PHP Stack trace:
+[06-May-2018 01:40:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php:0
+[06-May-2018 01:40:16 UTC] PHP Warning:  Illegal string offset 'pictureURL' in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php on line 57
+[06-May-2018 01:40:16 UTC] PHP Stack trace:
+[06-May-2018 01:40:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php:0
+[06-May-2018 01:44:10 UTC] PHP Warning:  Illegal string offset 'pictureURL' in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php on line 55
+[06-May-2018 01:44:10 UTC] PHP Stack trace:
+[06-May-2018 01:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php:0

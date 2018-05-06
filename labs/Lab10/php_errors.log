@@ -1,0 +1,18 @@
+[30-Apr-2018 22:25:14 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:25:14 UTC] PHP Stack trace:
+[30-Apr-2018 22:25:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:25:14 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:25:14 UTC] PHP Stack trace:
+[30-Apr-2018 22:25:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:25:14 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 5
+[30-Apr-2018 22:25:14 UTC] PHP Stack trace:
+[30-Apr-2018 22:25:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:25:36 UTC] PHP Warning:  include(../../../Pracice/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:25:36 UTC] PHP Stack trace:
+[30-Apr-2018 22:25:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:25:36 UTC] PHP Warning:  include(): Failed opening '../../../Pracice/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:25:36 UTC] PHP Stack trace:
+[30-Apr-2018 22:25:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:25:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php on line 5
+[30-Apr-2018 22:25:36 UTC] PHP Stack trace:
+[30-Apr-2018 22:25:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/api/getPetInfo.php:0
