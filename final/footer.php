@@ -8,7 +8,7 @@
                 It is used for academic purposes only.
             </div>
             <br/>
-            <img src="csumb_logo_150_86.jpg" alt="csumbLogo">
+            <img src="../Practice/csumb_logo_150_86.jpg" alt="csumbLogo">
         </footer>
     </body>
 </html>

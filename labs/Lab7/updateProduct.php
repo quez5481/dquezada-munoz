@@ -1,6 +1,6 @@
 <?php
 
-    include '../Practice/dbConnection.php';
+    include '../../Practice/dbConnection.php';
     $conn = getDatabaseConnection("ottermart");
     
     function getCategories($catId)
@@ -69,8 +69,8 @@
         $product = getProductInfo();
     }
     print_r($product);
-
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -108,7 +108,7 @@
             </div>
             
             <br/>
-            <img src="csumb_logo_150_86.jpg" alt"csumbLogo">
+            <img src="csumb_logo_150_86.jpg" alt="csumbLogo">
         </footer>
     </body>
 </html>

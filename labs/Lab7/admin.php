@@ -21,7 +21,7 @@
     }
     
     
-    include '../Practice/dbConnection.php';
+    include '../../Practice/dbConnection.php';
     
     $conn = getDatabaseConnection("ottermart");
     

@@ -12,9 +12,10 @@
             {
                 text-align: center;
             }
-            .carousel-inner
+            .image
             {
-                margin: 0 auto;
+                width: 50%; 
+                margin: auto;
             }
         </style>
    

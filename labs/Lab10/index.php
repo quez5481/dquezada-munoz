@@ -56,7 +56,7 @@
             for($i=1; $i<count($pets); $i++)
             {
                 echo "<div class='carousel-item'>";
-                echo "<img class='d-block w-30' src='img/" . $pets[$i]['pictureURL'] . "' alt='slide"  . $i .  "'>";
+                echo "<img class='d-block image' src='img/" . $pets[$i]['pictureURL'] . "' alt='slide"  . $i .  "'>";
                 echo "</div>";
             }
         

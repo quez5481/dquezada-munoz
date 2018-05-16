@@ -71,3 +71,21 @@ Stack trace:
 [06-May-2018 01:44:10 UTC] PHP Warning:  Illegal string offset 'pictureURL' in /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php on line 55
 [06-May-2018 01:44:10 UTC] PHP Stack trace:
 [06-May-2018 01:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab10/index.php:0
+[09-May-2018 19:01:11 UTC] PHP Warning:  include(../Practice/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/updateProduct.php on line 3
+[09-May-2018 19:01:11 UTC] PHP Stack trace:
+[09-May-2018 19:01:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/updateProduct.php:0
+[09-May-2018 19:01:11 UTC] PHP Warning:  include(): Failed opening '../Practice/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/updateProduct.php on line 3
+[09-May-2018 19:01:11 UTC] PHP Stack trace:
+[09-May-2018 19:01:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/updateProduct.php:0
+[09-May-2018 19:01:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/updateProduct.php on line 4
+[09-May-2018 19:01:11 UTC] PHP Stack trace:
+[09-May-2018 19:01:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/updateProduct.php:0
+[09-May-2018 19:01:51 UTC] PHP Warning:  include(../Practice/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/admin.php on line 24
+[09-May-2018 19:01:51 UTC] PHP Stack trace:
+[09-May-2018 19:01:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/admin.php:0
+[09-May-2018 19:01:51 UTC] PHP Warning:  include(): Failed opening '../Practice/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/admin.php on line 24
+[09-May-2018 19:01:51 UTC] PHP Stack trace:
+[09-May-2018 19:01:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/admin.php:0
+[09-May-2018 19:01:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/admin.php on line 26
+[09-May-2018 19:01:51 UTC] PHP Stack trace:
+[09-May-2018 19:01:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/dquezada-munoz/labs/Lab7/admin.php:0
