@@ -39,7 +39,7 @@
                         //alert(status);
                     }
                 });
-                $("#searchDetails").submit( function()
+                $("#searchDetails").click( function()
                 {
                     $.ajax
                     ({
@@ -67,7 +67,7 @@
                     });//ajax
                 }); // Username Event 
 
-                $("#searchMovies").submit( function()
+                $("#searchMovies").click( function()
                 {
                     $.ajax
                     ({
@@ -129,8 +129,8 @@
             <form method="GET">
                 <fieldset>
                     <select id="superheroes"></select><br><br>
-                    <input type="submit" value="Search Movies!" name="searchMovies"><br><br><br><br>
-                    <input type="submit" id="searchDetails" value="Superhero Details!" name="searchDetails"><br><br><br><br>
+                    <input type="button" value="Search Movies!" id="searchMovies"><br><br><br><br>
+                    <input type="button" id="searchDetails" value="Superhero Details!" name="searchDetails"><br><br><br><br>
                 </fieldset>
             </form>
         </div>
