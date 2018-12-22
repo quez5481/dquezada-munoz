@@ -5,7 +5,7 @@ main
 }
 nav
 {
-    background-color:#3B9BFA;
+    background-color:#68B3FE;
 }
 nav a
 {
@@ -41,6 +41,6 @@ footer img
 #text
 {
     
-    float:right;
+    float:left;
     text-align:left;
 }
